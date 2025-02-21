@@ -1,5 +1,8 @@
 Evaluation Attempt - Merkle Hash Tree Performance for a collaborative Editing Tool
 
+Claim for using an AI tool:
+Some parts of this code are written with the help of chatGPT (4o), specifically, the get_merkle_tree_size method.
+
 
 Example output:
 
