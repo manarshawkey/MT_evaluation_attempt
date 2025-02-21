@@ -80,9 +80,9 @@ if __name__ == "__main__":
 
     actual_tree_size = get_merkle_tree_size(tree)
     
-    print("Total Merkle Tree Size in Memory:", actual_tree_size, "bytes")
+    print(f"Single Merkle Tree Size of {n} leaf nodes in Memory:", actual_tree_size, "bytes")
 
-    execution_time = timeit.timeit(lambda:sim_n_char_paragraph(n), number=10)/10 #average over 1s0 runs, output in seconds 
+    execution_time = timeit.timeit(lambda:sim_n_char_paragraph(n), number= 1) #10)/10 #average over 1s0 runs, output in seconds 
 
     execution_time *= 1000 #get output in milliseconds
     
